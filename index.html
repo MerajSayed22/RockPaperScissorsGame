@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissors Game - fun awaits !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="navbar">
+            <div class="heading">
+                Rock Paper Scissors - Let's Play
+            </div>
+        </div>
+        <div class="chooseText">
+            <p>Choose one of the three options below</p>
+        </div>
+        <div class="options">
+            <div class="optionsMenu" id="Rock"><img src="assets/rock.png" alt="RockSign"></div>
+            <div class="optionsMenu" id="Paper"><img src="assets/paper.png" alt="PaperSign"></div>
+            <div class="optionsMenu" id="Scissors"><img src="assets/scissors.png" alt="ScissorsSign"></div>
+        </div>
+
+
+        <div class="selection">
+            <div class="userSelection">
+                <p> You Selected :
+                <div id="userSelected"></div>
+                </p>
+            </div>
+            <div class="botSelection">
+                <p>Computer Selected:
+                <div id="botSelected"></div>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="score-board">
+            <div class="score">
+              <p id="user-score">0</p>
+              <p>You</p>
+            </div>
+            <div class="score">
+              <p id="comp-score">0</p>
+              <p>Computer</p>
+            </div>
+          </div>
+
+
+          <div class="msg-container">
+            <p id="msg">Play your move</p>
+          </div>
+          <script src="script.js"></script>
+
+
+    </div>
+</body>
+
+</html>
